@@ -1,0 +1,57 @@
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.head{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.bottom{
+    background-color: #3882F6;
+}
+
+header{
+    background-color: #1F2937;
+    font-size:18px;
+}
+
+header img{
+    margin:10px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.head button{
+    background-color:#3882F6;
+    border: #1F2937 solid thin;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom button{
+    background-color:#3882F6;
+    color: white;
+    font-weight: bold;
+    border: white solid thin;
+}

@@ -13,7 +13,6 @@ h2{
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
-    justify-content: space-between;
 }
 
 .head-right img{
@@ -21,18 +20,20 @@ h2{
 }
 
 .quote{
-    text-align: center;
+    display: flex;
     background-color: #E5E7EB;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
+    text-align: center;
+    justify-content: center;
 }
 
 .bottom{
     text-align: center;
     background-color: #3882F6;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .torso{
@@ -75,9 +76,12 @@ a{
     border: #1F2937 solid thin;
     color: white;
     font-weight: bold;
+    padding: 15px;
 }
 
 .bottom button{
+    margin: 20px;
+    padding:15px;
     background-color:#3882F6;
     color: white;
     font-weight: bold;

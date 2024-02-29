@@ -4,36 +4,61 @@ h1 {
     font-weight: bold;
 }
 
+h2{
+    text-align: center;
+}
+
 .head{
+    display: flex;
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
+    justify-content: space-between;
+}
+
+.head-right img{
+    border: #E5E7EB solid;
 }
 
 .quote{
+    text-align: center;
     background-color: #E5E7EB;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
-    font-weight: light;
 }
 
 .bottom{
+    text-align: center;
     background-color: #3882F6;
+    display: flex;
+    justify-content: center
+}
+
+.torso{
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 header{
+    display: flex;
     background-color: #1F2937;
     font-size:18px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
 header img{
     margin:10px;
+
 }
 
 footer{
     background-color: #1F2937;
     color: #e5e7eb;
+    text-align: center;
 }
 
 a{
@@ -41,6 +66,9 @@ a{
     color: #e5e7eb;
 }
 
+.torso img{
+    border:#3882F6 solid;
+}
 
 .head button{
     background-color:#3882F6;

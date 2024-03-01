@@ -1,4 +1,4 @@
-h1 {
+h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
@@ -13,6 +13,20 @@ h2{
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.head-left {
+    width: 650px;
+    margin-bottom: 10px;
+}
+
+.head button{
+    border-radius: 20px;
 }
 
 .head-right img{
@@ -27,19 +41,33 @@ h2{
     font-style: italic;
     text-align: center;
     justify-content: center;
+    padding: 30px;
 }
 
-.bottom{
-    text-align: center;
-    background-color: #3882F6;
+
+.bottom-banner{
     display: flex;
     justify-content: center;
+}
+
+
+.bottom{
+    background-color: #3882F6;
+    display: flex;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
 }
 
 .torso{
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 header{
@@ -60,6 +88,7 @@ footer{
     background-color: #1F2937;
     color: #e5e7eb;
     text-align: center;
+    padding: 20px;
 }
 
 a{
@@ -69,6 +98,7 @@ a{
 
 .torso img{
     border:#3882F6 solid;
+    border-radius: 15px;
 }
 
 .head button{
